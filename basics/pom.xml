@@ -4,27 +4,37 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.estudos</groupId>
-    <artifactId>java-basics</artifactId>
+    <artifactId>java-basics-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <name>java-basics</name>
-    <description>Pré-requisitos de linguagem antes de core/concorrência e módulos por versão</description>
+    <packaging>pom</packaging>
+    <name>java-basics-parent</name>
+    <description>Linguagem, memória, SO, rede, segurança e armazenamento — visão de arquiteto antes do core</description>
+    <modules>
+        <module>basics-language</module>
+        <module>basics-memory</module>
+        <module>basics-os-concurrency</module>
+        <module>basics-networking</module>
+        <module>basics-security</module>
+        <module>basics-storage</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
     </properties>
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.12.1</version>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>
-        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.12.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.3.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 </project>

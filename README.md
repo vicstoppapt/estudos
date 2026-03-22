@@ -4,7 +4,7 @@ Repositório modular: **fundamentos (`core`)** e **recursos por versão** do JDK
 
 | Módulo   | JDK no `pom.xml` | Conteúdo resumido |
 |----------|------------------|-------------------|
-| `basics` | 17               | Variáveis, métodos, `static`, objetos, fluxo, arrays — **antes** do `core` se precisar rever a linguagem |
+| `basics` | 17               | **Pai Maven:** linguagem, memória, SO/rede, **segurança**, **armazenamento** — **antes** do `core`; ver `basics/README.md` |
 | `core`   | 17               | Paradigmas, JVM/GC, entrevistas; **trilha numerada** em `core/README.md` (fácil → difícil) |
 | `java8`  | 8                | Lambda, Stream, Optional, `java.time`, default methods |
 | `java11` | 11               | `var`, `HttpClient`, `String`/`Files`, single-file `misc/Ola.java` |
@@ -66,6 +66,16 @@ Versões exatas das bibliotecas: propriedades no `pom.xml` de cada módulo.
 
 - **`package-info.java`:** documentação do pacote (JavaDoc), não é classe executável — explicado em `core/README.md`.
 - **Paradigmas** (`imperative`, `oop`, `declarative`, …): ver tabela em `core/README.md`.
+
+---
+
+## Próximos passos (fora do `basics` neste repositório)
+
+Temas para um módulo ou documentação futura — ligados a **DevOps**, **pipelines** e **automação**; **não** estão expandidos no `basics` neste momento:
+
+- **Observabilidade:** métricas (ex.: Prometheus), *tracing* distribuído (OpenTelemetry), logs estruturados, SLI/SLO, alertas e *dashboards*.
+- **CI/CD:** *pipelines* (GitHub Actions, GitLab CI, Jenkins), artefactos, promoção entre ambientes, *rollback*.
+- **Automação / infra como código:** Terraform, Ansible, Helm; políticas, *secrets* no pipeline, *governance*.
 
 ---
 
