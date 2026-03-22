@@ -2,6 +2,8 @@
 
 Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compiler.release` no POM pai) — linguagem, memória, sistema, rede, **segurança** e **armazenamento** (visão de arquiteto).
 
+**Plano global** (com `core`, `java8`…`java21`): [`estudos/README.md`](../README.md) → secção **Plano de estudos**.
+
 | Submódulo | Artefacto | Conteúdo |
 |-----------|-----------|----------|
 | [`basics-language`](basics-language/) | `java-basics-language` | Sintaxe mínima: variáveis, métodos, objetos, fluxo, arrays, API (conceito) |
@@ -59,4 +61,4 @@ mvn -q exec:java -pl basics-storage "-Dexec.mainClass=com.estudos.basics.storage
 
 ## Depois
 
-Seguir para `../core` (`core/README.md` — trilha numerada).
+Seguir para `../core` (`core/README.md` — trilha numerada). **Frameworks / Spring Boot:** módulo `../frameworks` (`frameworks/README.md`).

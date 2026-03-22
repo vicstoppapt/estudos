@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: frameworks-micronaut
+  server:
+    port: 8081
