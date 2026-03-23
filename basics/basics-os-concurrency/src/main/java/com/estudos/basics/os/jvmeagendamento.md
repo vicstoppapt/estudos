@@ -1,6 +1,6 @@
 # JVM, processo único e threads Java
 
-Complemento de [processosthreadsecpu.md](processosthreadsecpu.md). Foco: **o que acontece quando usas `new Thread(...).start()`** e como isto se relaciona com o `core`.
+Complemento de [processosthreadsecpu.md](processosthreadsecpu.md) e do guia [processadorcoresethreads.md](processadorcoresethreads.md). Foco: **o que acontece quando usas `new Thread(...).start()`** e como isto se relaciona com o `core`.
 
 ---
 

@@ -1,5 +1,7 @@
 # Processos, threads de SO e CPU (visão de arquiteto)
 
+**Antes / detalhe:** vocabulário, cálculos de pools e encadeamento hardware→SO→JVM — [processadorcoresethreads.md](processadorcoresethreads.md) · exemplos: [`ProcessorThreadExamples.java`](ProcessorThreadExamples.java).
+
 Texto do submódulo **`basics-os-concurrency`**. Código de apoio: [`OsRuntimeSnapshot.java`](OsRuntimeSnapshot.java). Memória e cache: `basics-memory` → [cpucachejvmenavegador.md](../../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/cpucachejvmenavegador.md). Threads em Java (race, `synchronized`): `core` → `MultithreadingIntro`.
 
 ---

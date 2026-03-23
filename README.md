@@ -35,7 +35,7 @@ A ordem abaixo respeita **dependências** (ex.: referências na memória antes d
 | A.3 | P1 | `basics-storage` | `com.estudos.basics.storage` | SQL vs NoSQL, ACID/CAP, JDBC, ficheiros, object storage |
 | A.4 | P1 | `basics-networking` | `com.estudos.basics.network` | TCP/UDP, DNS, HTTP/REST, gRPC; **em seguida** praticar HTTP no módulo **`java11`** (`com.estudos.java11.examples`) |
 | A.5 | P1 | `basics-security` | `com.estudos.basics.security` | AuthN/Z, criptografia (conceito), OWASP, engenharia social, SQLi, DDoS, defesa em camadas |
-| A.6 | P1 | `basics-os-concurrency` | `com.estudos.basics.os` | Processo SO, threads, núcleos, JVM; ponte para `core` / `java21` |
+| A.6 | P1 | `basics-os-concurrency` | `com.estudos.basics.os` | Processador, cores físicos/lógicos, threads SO/Java, dimensionamento; [`processadorcoresethreads.md`](basics/basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads.md); ponte para `core` / `java21` |
 
 ### Fase B — `core` (JDK 17), com intercalção de `java8`
 

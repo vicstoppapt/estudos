@@ -8,7 +8,7 @@ Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compi
 |-----------|-----------|----------|
 | [`basics-language`](basics-language/) | `java-basics-language` | Sintaxe mínima: variáveis, métodos, objetos, fluxo, arrays, API (conceito) |
 | [`basics-memory`](basics-memory/) | `java-basics-memory` | RAM, stack/heap, cache CPU, referências / “ponteiros” |
-| [`basics-os-concurrency`](basics-os-concurrency/) | `java-basics-os-concurrency` | Processo SO, threads, núcleos, agendamento, JVM vs SO |
+| [`basics-os-concurrency`](basics-os-concurrency/) | `java-basics-os-concurrency` | Processador, cores físicos/lógicos, threads SO/Java, pools; JVM vs SO — ver `processadorcoresethreads.md` |
 | [`basics-networking`](basics-networking/) | `java-basics-networking` | TCP/UDP, DNS, HTTP/REST, gRPC, WebSocket, filas… |
 | [`basics-security`](basics-security/) | `java-basics-security` | AuthN/Z, hash/criptografia (conceito), segredos, OWASP |
 | [`basics-storage`](basics-storage/) | `java-basics-storage` | Modelos de dados, ACID/CAP, JDBC, ficheiros, object storage |
@@ -19,7 +19,7 @@ Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compi
 
 1. **Linguagem** — tabela abaixo (ou só o que faltar).
 2. **Memória** — [`basics-memory/README.md`](basics-memory/README.md) (em paralelo com `VariablesAndTypes` se quiseres).
-3. **SO e CPU** — [`basics-os-concurrency/README.md`](basics-os-concurrency/README.md).
+3. **SO e CPU** — [`basics-os-concurrency/README.md`](basics-os-concurrency/README.md); leitura longa primeiro: [`processadorcoresethreads.md`](basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads.md).
 4. **Rede** — [`basics-networking/README.md`](basics-networking/README.md); depois HTTP em código no **`java11`**.
 5. **Segurança** — [`basics-security/README.md`](basics-security/README.md) (complementa HTTPS/TLS da rede).
 6. **Armazenamento** — [`basics-storage/README.md`](basics-storage/README.md).
@@ -50,6 +50,7 @@ Exemplos:
 ```bash
 mvn -q exec:java -pl basics-language "-Dexec.mainClass=com.estudos.basics.VariablesAndTypes"
 mvn -q exec:java -pl basics-memory "-Dexec.mainClass=com.estudos.basics.memory.ReferencesAndPointers"
+mvn -q exec:java -pl basics-os-concurrency "-Dexec.mainClass=com.estudos.basics.os.ProcessorThreadExamples"
 mvn -q exec:java -pl basics-os-concurrency "-Dexec.mainClass=com.estudos.basics.os.OsRuntimeSnapshot"
 mvn -q exec:java -pl basics-networking "-Dexec.mainClass=com.estudos.basics.network.NetworkingLiteracy"
 mvn -q exec:java -pl basics-security "-Dexec.mainClass=com.estudos.basics.security.CryptoLiteracy"
