@@ -1,5 +1,7 @@
 # Spring Boot por níveis (básico → avançado)
 
+**English:** [springbootniveis-en.md](springbootniveis-en.md)
+
 **Agregador `frameworks`** (submódulo `frameworks-springboot`). Definição dos níveis: [niveisdefinicao.md](niveisdefinicao.md). **Arquitetura MVC + camadas:** [mvcerestcamadas.md](mvcerestcamadas.md) · **Padrões:** [padroescatalogo.md](padroescatalogo.md). Micronaut/Quarkus repetem o mesmo recorte em `com.estudos.frameworks.micronaut` / `com.estudos.frameworks.quarkus`.
 
 ---

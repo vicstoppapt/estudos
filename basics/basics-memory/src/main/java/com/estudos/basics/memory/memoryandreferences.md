@@ -1,5 +1,7 @@
 # Memória, RAM e referências (visão para entrevista e revisão de arquitetura)
 
+**English:** [memoryandreferences-en.md](memoryandreferences-en.md)
+
 Texto **transversal** ao módulo `basics`: não tem `.java` dedicado; cruza com `variablesandtypes.md`, `core/jvm` e `core/imperative/PassByValue`.
 
 Objetivo: lembrar (ou aprender de novo) **onde os dados vivem**, **o que é RAM vs disco**, **o que significa “referência”**, **o que a JVM faz “por trás”** em relação a “passagem por referência”, e **como outras linguagens** costumam diferir — linguagem típica de entrevista e de disciplinas de sistemas / arquitetura de computadores.

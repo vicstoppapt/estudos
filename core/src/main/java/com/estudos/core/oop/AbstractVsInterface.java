@@ -1,19 +1,22 @@
 package com.estudos.core.oop;
 
 /**
- * Herança simples + interface. Teoria: README.md.
+ * PT: Herança simples + interface. Teoria: README.md.
+ * EN: Simple inheritance + interface. Theory: README.md.
  */
 public final class AbstractVsInterface {
 
     private AbstractVsInterface() {
     }
 
-    // Contrato de movimento; implementação fica nas classes concretas
+    // PT: Contrato de movimento; implementação fica nas classes concretas.
+    // EN: Movement contract; implementation lives in concrete classes.
     interface Deslocavel {
         void mover();
     }
 
-    // Estado comum (id) + hook abstrato ligar()
+    // PT: Estado comum (id) + hook abstrato ligar().
+    // EN: Shared state (id) + abstract hook ligar().
     abstract static class Veiculo {
         protected final String id;
 
@@ -26,7 +29,9 @@ public final class AbstractVsInterface {
 
     static final class Bicicleta extends Veiculo implements Deslocavel {
         Bicicleta(String id) {
-            super(id); // inicializa id na superclasse
+            // PT: Inicializa id na superclasse.
+            // EN: Initializes id in the superclass.
+            super(id);
         }
 
         @Override
@@ -40,14 +45,21 @@ public final class AbstractVsInterface {
         }
     }
 
-    /** Playground; descomente no main. */
+    /**
+     * PT: Playground; descomente no main.
+     * EN: Playground; uncomment in main.
+     */
     static void meuPlayground() {
     }
 
     public static void main(String[] args) {
         Bicicleta b = new Bicicleta("B1");
-        b.ligar(); // método abstrato resolvido na subclasse
-        b.mover(); // interface Deslocavel
+        // PT: Método abstrato resolvido na subclasse.
+        // EN: Abstract method resolved in the subclass.
+        b.ligar();
+        // PT: Interface Deslocavel.
+        // EN: Deslocavel interface.
+        b.mover();
 
         // meuPlayground();
     }

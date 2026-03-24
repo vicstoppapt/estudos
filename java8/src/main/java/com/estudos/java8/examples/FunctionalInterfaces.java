@@ -5,7 +5,10 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-/** java.util.function. Teoria: README.md. */
+/**
+ * PT: java.util.function. Teoria: README.md.
+ * EN: java.util.function. Theory: README.md.
+ */
 public final class FunctionalInterfaces {
 
     private FunctionalInterfaces() {
@@ -17,13 +20,17 @@ public final class FunctionalInterfaces {
 
     public static void main(String[] args) {
         Predicate<String> naoVazio = s -> s != null && !s.isEmpty();
-        Function<String, Integer> tamanho = String::length; // equivale a s -> s.length()
+        // PT: equivale a s -> s.length()
+        // EN: same as s -> s.length()
+        Function<String, Integer> tamanho = String::length;
         Consumer<String> print = System.out::println;
-        Supplier<Double> random = Math::random; // sem argumentos, retorna Double
+        // PT: sem argumentos, retorna Double
+        // EN: no arguments, returns Double
+        Supplier<Double> random = Math::random;
 
-        print.accept("naoVazio('a'): " + naoVazio.test("a"));
-        print.accept("tamanho abc: " + tamanho.apply("abc"));
-        print.accept("random: " + random.get());
+        print.accept("PT: naoVazio('a'): " + naoVazio.test("a") + " | EN: nonEmpty('a'): " + naoVazio.test("a"));
+        print.accept("PT: tamanho abc: " + tamanho.apply("abc") + " | EN: length abc: " + tamanho.apply("abc"));
+        print.accept("PT: random: " + random.get() + " | EN: random: " + random.get());
 
         // meuPlayground();
     }

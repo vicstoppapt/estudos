@@ -1,5 +1,7 @@
 # `FilesReadWriteString`
 
+**English:** [filesreadwritestring-en.md](filesreadwritestring-en.md)
+
 Exemplo: `FilesReadWriteString.java`.
 
 ## Objetivo

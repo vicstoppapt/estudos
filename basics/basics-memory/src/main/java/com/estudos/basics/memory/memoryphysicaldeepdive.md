@@ -1,5 +1,7 @@
 # Memória: física no PC, frequências, swap, limites, loops e “ponteiros”
 
+**English:** [memoryphysicaldeepdive-en.md](memoryphysicaldeepdive-en.md)
+
 Complemento de [memoryandreferences.md](memoryandreferences.md). Aqui entra **curiosidade de hardware**, **por que existe swap**, **ordens de grandeza**, **limites**, e **diagramas** (Mermaid + ASCII) — em editores como VS Code/Cursor/GitHub os blocos `mermaid` podem ser pré-visualizados com extensão ou no site [mermaid.live](https://mermaid.live).
 
 Não há fotos binárias no repositório; fluxos e “desenhos” são **texto** renderizável.

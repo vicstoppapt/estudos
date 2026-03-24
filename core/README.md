@@ -1,5 +1,9 @@
 # Core — Java para entrevistas e funcionamento da linguagem
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../DOCUMENTATION.md) (como correr todos os módulos) · [GLOSSARY.md](../GLOSSARY.md) (termos PT↔EN).
+
 Objetivo: **perguntas comuns em entrevista** e **como a JVM/linguagem se comportam**. Os pacotes agrupam tema (`imperative`, `oop`, …); a **ordem de estudo** abaixo é a referência (do conteúdo **mais fácil e menos crítico** ao **mais difícil e mais importante** no dia a dia / entrevista sênior).
 
 **Pré-requisito opcional:** se `String`, laços, `new`, `static` ou arrays estiverem em falta, percorra primeiro o módulo **`basics`** (irmão desta pasta em `estudos/basics/README.md`).

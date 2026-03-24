@@ -1,5 +1,7 @@
 # `JvmMemoryModelIntro`
 
+**English:** [jvmmemorymodelintro-en.md](jvmmemorymodelintro-en.md)
+
 Exemplo em: `JvmMemoryModelIntro.java`.
 
 ## Objetivo

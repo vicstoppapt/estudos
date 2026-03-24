@@ -1,5 +1,7 @@
 # `GenericsBasics`
 
+**English:** [genericsbasics-en.md](genericsbasics-en.md)
+
 Exemplo em: `GenericsBasics.java`.
 
 ## Objetivo

@@ -1,5 +1,7 @@
 # Injeção de dependências (DI) e IoC
 
+**English:** [injecaodependencias-en.md](injecaodependencias-en.md)
+
 **Submódulo `frameworks-springboot`**. Spring Boot como container: [springbootniveis.md](springbootniveis.md). Camadas: [mvcerestcamadas.md](mvcerestcamadas.md).
 
 ---

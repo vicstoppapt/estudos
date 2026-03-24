@@ -1,7 +1,8 @@
 package com.estudos.basics;
 
 /**
- * Classe, instância, construtor, this. Teoria: objectsconstructorsthis.md.
+ * PT: Classe, instância, construtor, this. Teoria: objectsconstructorsthis.md.
+ * EN: Class, instance, constructor, this. Theory: objectsconstructorsthis.md.
  */
 public final class ObjectsConstructorsThis {
 
@@ -12,9 +13,12 @@ public final class ObjectsConstructorsThis {
         private final String id;
         private boolean ligada;
 
-        // Construtor: roda ao dar new; inicializa estado do objeto
+        // PT: Construtor: roda ao dar new; inicializa estado do objeto
+        // EN: Constructor: runs on new; initializes object state
         Lampada(String id) {
-            this.id = id; // this = "este objeto"; desambigua parâmetro vs campo
+            // PT: this = "este objeto"; desambigua parâmetro vs campo
+            // EN: this = "this object"; disambiguates parameter vs field
+            this.id = id;
             this.ligada = false;
         }
 
@@ -33,7 +37,8 @@ public final class ObjectsConstructorsThis {
     public static void main(String[] args) {
         Lampada l = new Lampada("sala");
         l.ligar();
-        System.out.println(l.resumo());
+        System.out.println("PT: " + l.resumo());
+        System.out.println("EN: " + l.resumo().replace(" ligada=", " on="));
 
         // meuPlayground();
     }

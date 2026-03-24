@@ -1,5 +1,7 @@
 # `OptionalExample`
 
+**English:** [optionalexample-en.md](optionalexample-en.md)
+
 Exemplo: `OptionalExample.java`.
 
 ## Objetivo

@@ -1,5 +1,7 @@
 # `final`, `static`, `interface` e encapsulamento
 
+**English:** [finalstaticinterfacesandencap-en.md](finalstaticinterfacesandencap-en.md)
+
 Texto que junta quatro peças comuns de **modelagem em Java**. Código: [`FinalStaticInterfacesAndEncap.java`](FinalStaticInterfacesAndEncap.java). Para **`static` em detalhe**, ver [`StaticMembers.java`](StaticMembers.java) e [staticmembers.md](staticmembers.md). Objetos/`private` inicial: [objectsconstructorsthis.md](objectsconstructorsthis.md). **Referência vs objeto (o que “ponteiro” significa em Java):** [pointersreferencesdeepdive.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/pointersreferencesdeepdive.md) no submódulo `basics-memory`.
 
 ---

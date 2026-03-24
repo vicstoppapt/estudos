@@ -1,5 +1,7 @@
 # `MethodReferences`
 
+**English:** [methodreferences-en.md](methodreferences-en.md)
+
 Exemplo: `MethodReferences.java`.
 
 ## Objetivo

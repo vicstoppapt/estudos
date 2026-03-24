@@ -1,5 +1,7 @@
 # `MultithreadingIntro`
 
+**English:** [multithreadingintro-en.md](multithreadingintro-en.md)
+
 Exemplo em: `MultithreadingIntro.java`.
 
 Se variáveis, métodos, `static`, objetos ou arrays estiverem fracos, use antes o módulo **`basics`** no repositório: [`basics/README.md`](../../../../../../../../../basics/README.md) (caminho relativo a partir deste `.md`). O resto deste texto constrói concorrência em cima disso.

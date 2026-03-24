@@ -1,5 +1,7 @@
 # `LambdaBasics`
 
+**English:** [lambdabasics-en.md](lambdabasics-en.md)
+
 Exemplo: `LambdaBasics.java`.
 
 ## Objetivo

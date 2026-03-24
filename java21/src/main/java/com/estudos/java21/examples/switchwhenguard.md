@@ -1,5 +1,7 @@
 # `SwitchWhenGuard`
 
+**English:** [switchwhenguard-en.md](switchwhenguard-en.md)
+
 Exemplo: `SwitchWhenGuard.java`.
 
 ## Objetivo

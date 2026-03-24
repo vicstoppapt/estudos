@@ -5,7 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- * Checked, unchecked, finally. Teoria: README.md.
+ * PT: Checked, unchecked, finally. Teoria: README.md.
+ * EN: Checked, unchecked, finally. Theory: README.md.
  */
 public final class ExceptionsHierarchy {
 
@@ -16,26 +17,32 @@ public final class ExceptionsHierarchy {
         try {
             return 1;
         } finally {
-            // Executa antes de devolver o valor do return acima
+            // PT: Executa antes de devolver o valor do return acima.
+            // EN: Runs before returning the value from the return above.
             System.out.println("finally executa antes do return");
         }
     }
 
-    /** Playground; descomente no main. */
+    /**
+     * PT: Playground; descomente no main.
+     * EN: Playground; uncomment in main.
+     */
     static void meuPlayground() {
     }
 
     public static void main(String[] args) {
         System.out.println("retorno: " + finallySempreRoda());
 
-        // IOException é checked — precisa catch ou throws
+        // PT: IOException é checked — precisa catch ou throws.
+        // EN: IOException is checked — requires catch or throws.
         try {
             Files.readString(Path.of("arquivo-inexistente-xyz.txt"));
         } catch (IOException e) {
             System.out.println("IOException (checked): " + e.getClass().getSimpleName());
         }
 
-        // ArithmeticException é RuntimeException — unchecked
+        // PT: ArithmeticException é RuntimeException — unchecked.
+        // EN: ArithmeticException is RuntimeException — unchecked.
         try {
             int x = 1 / 0;
         } catch (ArithmeticException e) {

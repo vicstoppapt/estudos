@@ -1,5 +1,7 @@
 # `ComparableComparator`
 
+**English:** [comparablecomparator-en.md](comparablecomparator-en.md)
+
 Exemplo em: `ComparableComparator.java` (`record Item`).
 
 ## Objetivo

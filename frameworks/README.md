@@ -1,5 +1,9 @@
 # Frameworks na JVM (`java-frameworks-parent`)
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** comandos globais e glossário — [DOCUMENTATION.md](../DOCUMENTATION.md) · [GLOSSARY.md](../GLOSSARY.md) (termos REST, DI, DTO em inglês).
+
 **JDK 17** · **três submódulos Maven** com a **mesma API** `POST/GET /api/articles`, **camadas** (API → aplicação → domínio → infra) e **validação** na fronteira. Portas distintas para correr em paralelo: **8080** (Spring), **8081** (Micronaut), **8082** (Quarkus).
 
 | Submódulo | Stack | Pacote raiz do código |

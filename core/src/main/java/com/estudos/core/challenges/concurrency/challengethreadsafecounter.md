@@ -1,5 +1,7 @@
 # `ChallengeThreadSafeCounter`
 
+**English:** [challengethreadsafecounter-en.md](challengethreadsafecounter-en.md)
+
 Solução em: `ChallengeThreadSafeCounter.java`. Testes verificam 100_000 após duas threads.
 
 ## Objetivo

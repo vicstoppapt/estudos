@@ -1,5 +1,7 @@
 # Exemplos Java 17
 
+**English:** [README-en.md](README-en.md)
+
 Records, sealed, `instanceof` com padrão, text blocks, `switch` expressão.
 
 **Um `.md` por classe**; fluxo nos `.java`.

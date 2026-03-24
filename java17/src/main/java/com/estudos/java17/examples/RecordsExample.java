@@ -1,6 +1,9 @@
 package com.estudos.java17.examples;
 
-/** Record básico. Teoria: README.md. */
+/**
+ * PT: Record básico. Teoria: README.md.
+ * EN: Basic record. Theory: README.md.
+ */
 public final class RecordsExample {
 
     private RecordsExample() {
@@ -15,8 +18,12 @@ public final class RecordsExample {
 
     public static void main(String[] args) {
         Usuario u = new Usuario("Ana", 1);
-        System.out.println(u); // toString gerado
-        System.out.println(u.nome()); // accessor nome()
+        // PT: toString gerado
+        // EN: generated toString
+        System.out.println(u);
+        // PT: accessor nome()
+        // EN: accessor nome()
+        System.out.println(u.nome());
 
         // meuPlayground();
     }

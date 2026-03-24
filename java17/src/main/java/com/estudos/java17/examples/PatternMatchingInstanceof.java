@@ -1,20 +1,24 @@
 package com.estudos.java17.examples;
 
-/** instanceof com binding. Teoria: README.md. */
+/**
+ * PT: instanceof com binding. Teoria: README.md.
+ * EN: instanceof with binding. Theory: README.md.
+ */
 public final class PatternMatchingInstanceof {
 
     private PatternMatchingInstanceof() {
     }
 
     static String descrever(Object o) {
-        // s só existe se for String E length > 2
+        // PT: s só existe se for String E length > 2
+        // EN: s exists only if it is a String AND length > 2
         if (o instanceof String s && s.length() > 2) {
-            return "string longa: " + s;
+            return "PT: string longa: " + s + " | EN: long string: " + s;
         }
         if (o instanceof Integer i) {
-            return "int: " + i;
+            return "PT: int: " + i + " | EN: int: " + i;
         }
-        return "outro";
+        return "PT: outro | EN: other";
     }
 
     /** Playground; descomente no main. */

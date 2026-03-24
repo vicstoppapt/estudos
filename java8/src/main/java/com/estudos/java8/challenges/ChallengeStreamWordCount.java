@@ -5,7 +5,10 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/** Contagem de palavras (stream). README em challenges/. */
+/**
+ * PT: Contagem de palavras (stream). README em challenges/.
+ * EN: Word count (stream). README in challenges/.
+ */
 public final class ChallengeStreamWordCount {
 
     private ChallengeStreamWordCount() {
@@ -15,7 +18,8 @@ public final class ChallengeStreamWordCount {
         if (texto == null || texto.trim().isEmpty()) {
             return Collections.emptyMap();
         }
-        // tokeniza por whitespace; agrupa palavra -> quantidade de ocorrências
+        // PT: tokeniza por whitespace; agrupa palavra -> quantidade de ocorrências
+        // EN: tokenize on whitespace; group word -> occurrence count
         return Arrays.stream(texto.trim().split("\\s+"))
                 .filter(w -> !w.isEmpty())
                 .map(String::toLowerCase)

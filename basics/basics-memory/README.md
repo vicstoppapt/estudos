@@ -1,5 +1,9 @@
 # `basics-memory` — referências, RAM, cache
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../../DOCUMENTATION.md) · [GLOSSARY.md](../../GLOSSARY.md).
+
 Submódulo Maven do agregador `basics` (`java-basics-parent`). Foco: **modelo mental de memória**, **referências** (o que costumas chamar “ponteiros” noutras linguagens), **hardware** em alto nível, **cache** CPU vs JVM/navegador.
 
 ## Documentos (índice)

@@ -1,5 +1,7 @@
 # `StringUtilities`
 
+**English:** [stringutilities-en.md](stringutilities-en.md)
+
 Exemplo: `StringUtilities.java`.
 
 ## Objetivo

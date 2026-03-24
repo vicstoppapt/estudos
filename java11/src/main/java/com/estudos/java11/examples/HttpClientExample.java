@@ -6,7 +6,10 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-/** HttpClient síncrono. Teoria: README.md. */
+/**
+ * PT: HttpClient síncrono. Teoria: README.md.
+ * EN: Synchronous HttpClient. Theory: README.md.
+ */
 public final class HttpClientExample {
 
     private HttpClientExample() {
@@ -22,10 +25,14 @@ public final class HttpClientExample {
                 .uri(URI.create("https://example.com"))
                 .GET()
                 .build();
-        // Bloqueia até cabeçalho+corpo (aqui corpo como String)
+        // PT: Bloqueia até cabeçalho+corpo (aqui corpo como String)
+        // EN: Blocks until headers+body (here body as String)
         HttpResponse<String> resp = client.send(req, HttpResponse.BodyHandlers.ofString());
         System.out.println("status: " + resp.statusCode());
-        System.out.println("primeiros 120 chars: " + resp.body().substring(0, Math.min(120, resp.body().length())));
+        String body = resp.body();
+        int n = Math.min(120, body.length());
+        System.out.println("PT: primeiros " + n + " chars: " + body.substring(0, n) + " | EN: first " + n + " chars: "
+                + body.substring(0, n));
 
         // meuPlayground();
     }

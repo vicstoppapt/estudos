@@ -1,5 +1,7 @@
 # `ExceptionsHierarchy`
 
+**English:** [exceptionshierarchy-en.md](exceptionshierarchy-en.md)
+
 Exemplo em: `ExceptionsHierarchy.java`.
 
 ## Objetivo

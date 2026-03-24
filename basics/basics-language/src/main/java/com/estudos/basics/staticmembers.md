@@ -1,5 +1,7 @@
 # `StaticMembers`
 
+**English:** [staticmembers-en.md](staticmembers-en.md)
+
 Exemplo: `StaticMembers.java` (classe interna `Visitante`).
 
 ## Campo `static`

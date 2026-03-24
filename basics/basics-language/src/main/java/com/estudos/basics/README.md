@@ -1,5 +1,7 @@
 # Pacote `com.estudos.basics`
 
+**English:** [README-en.md](README-en.md)
+
 **Memória / referências / ponteiros (submódulo `basics-memory`):** [README do módulo](../../../../../../../basics-memory/README.md) · [memoryandreferences.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/memoryandreferences.md) · [memoryphysicaldeepdive.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/memoryphysicaldeepdive.md) · [cpucachejvmenavegador.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/cpucachejvmenavegador.md) · [pointersreferencesdeepdive.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/pointersreferencesdeepdive.md) · exemplo [`ReferencesAndPointers`](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/ReferencesAndPointers.java).
 
 **Neste pacote (linguagem):** [apiconceitogeral.md](apiconceitogeral.md) (o que é **API** além de REST/web).

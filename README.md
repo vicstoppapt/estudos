@@ -1,5 +1,9 @@
 # Estudos Java
 
+**English:** [README-en.md](README-en.md)
+
+**Execução de todos os módulos (comandos Maven, JDK por pasta):** [DOCUMENTATION.md](DOCUMENTATION.md) · [DOCUMENTATION-en.md](DOCUMENTATION-en.md) · **Glossário PT↔EN (todo o repo):** [GLOSSARY.md](GLOSSARY.md) · [GLOSSARY-en.md](GLOSSARY-en.md)
+
 Repositório modular: **fundamentos (`core`)** e **recursos por versão** do JDK. Cada pasta é um projeto **Maven** independente.
 
 | Módulo   | JDK no `pom.xml` | Conteúdo resumido |
@@ -35,7 +39,7 @@ A ordem abaixo respeita **dependências** (ex.: referências na memória antes d
 | A.3 | P1 | `basics-storage` | `com.estudos.basics.storage` | SQL vs NoSQL, ACID/CAP, JDBC, ficheiros, object storage |
 | A.4 | P1 | `basics-networking` | `com.estudos.basics.network` | TCP/UDP, DNS, HTTP/REST, gRPC; **em seguida** praticar HTTP no módulo **`java11`** (`com.estudos.java11.examples`) |
 | A.5 | P1 | `basics-security` | `com.estudos.basics.security` | AuthN/Z, criptografia (conceito), OWASP, engenharia social, SQLi, DDoS, defesa em camadas |
-| A.6 | P1 | `basics-os-concurrency` | `com.estudos.basics.os` | Processador, cores físicos/lógicos, threads SO/Java, dimensionamento; [`processadorcoresethreads.md`](basics/basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads.md); ponte para `core` / `java21` |
+| A.6 | P1 | `basics-os-concurrency` | `com.estudos.basics.os` | PT/EN + glossário: [`README.md`](basics/basics-os-concurrency/README.md), [`glossary-os-concurrency.md`](basics/basics-os-concurrency/src/main/java/com/estudos/basics/os/glossary-os-concurrency.md); ponte para `core` / `java21` |
 
 ### Fase B — `core` (JDK 17), com intercalção de `java8`
 

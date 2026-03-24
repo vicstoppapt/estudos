@@ -1,5 +1,7 @@
 # `ObjectMethods`
 
+**English:** [objectmethods-en.md](objectmethods-en.md)
+
 Exemplo em: `ObjectMethods.java` (classe interna `Ponto`).
 
 ## Objetivo

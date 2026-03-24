@@ -3,7 +3,8 @@ package com.estudos.core.challenges.collections;
 import java.util.Arrays;
 
 /**
- * Anagrama por ordenação de letras. Contexto: README em challenges/.
+ * PT: Anagrama por ordenação de letras. Contexto: README em challenges/.
+ * EN: Anagram by sorting letters. Context: README under challenges/.
  */
 public final class ChallengeAnagram {
 
@@ -21,7 +22,8 @@ public final class ChallengeAnagram {
         return Arrays.equals(ca, cb);
     }
 
-    // Só letras, em minúsculas — espaços e pontuação saem da contagem
+    // PT: Só letras, em minúsculas — espaços e pontuação saem da contagem.
+    // EN: Letters only, lowercased — spaces and punctuation are excluded from the count.
     private static char[] lettersLower(String s) {
         StringBuilder sb = new StringBuilder();
         for (int cp : s.codePoints().toArray()) {

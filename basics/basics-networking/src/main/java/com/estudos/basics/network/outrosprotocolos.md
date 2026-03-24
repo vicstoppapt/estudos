@@ -1,5 +1,7 @@
 # Outros protocolos e padrões (visão rápida)
 
+**English:** [outrosprotocolos-en.md](outrosprotocolos-en.md)
+
 **`basics-networking`**. HTTP/gRPC: [httprestegrpc.md](httprestegrpc.md).
 
 ---

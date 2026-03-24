@@ -1,5 +1,9 @@
 # Java 8
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../DOCUMENTATION.md) · [GLOSSARY.md](../GLOSSARY.md).
+
 Foco: **lambdas**, **API funcional** (`Stream`, `Optional`), **`java.time`**, **métodos default** em interface, **referências a método**.
 
 ## Exemplos (`com.estudos.java8.examples`)

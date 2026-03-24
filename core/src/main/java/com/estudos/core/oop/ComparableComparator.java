@@ -5,14 +5,16 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Ordem natural vs Comparator externo. Teoria: README.md.
+ * PT: Ordem natural vs Comparator externo. Teoria: README.md.
+ * EN: Natural order vs external Comparator. Theory: README.md.
  */
 public final class ComparableComparator {
 
     private ComparableComparator() {
     }
 
-    // compareTo define ordem "padrão" do tipo: aqui por preço crescente
+    // PT: compareTo define ordem "padrão" do tipo: aqui por preço crescente.
+    // EN: compareTo defines the type's default order: here by ascending price.
     record Item(String nome, int preco) implements Comparable<Item> {
         @Override
         public int compareTo(Item o) {
@@ -20,7 +22,10 @@ public final class ComparableComparator {
         }
     }
 
-    /** Playground; descomente no main. */
+    /**
+     * PT: Playground; descomente no main.
+     * EN: Playground; uncomment in main.
+     */
     static void meuPlayground() {
     }
 
@@ -28,11 +33,13 @@ public final class ComparableComparator {
         List<Item> itens = new ArrayList<>();
         itens.add(new Item("b", 20));
         itens.add(new Item("a", 10));
-        // null = usar Comparable do elemento (Item.compareTo)
+        // PT: null = usar Comparable do elemento (Item.compareTo).
+        // EN: null = use the element's Comparable (Item.compareTo).
         itens.sort(null);
         System.out.println("por preco (Comparable): " + itens);
 
-        // nova regra só para esta ordenação: extrator Item::nome
+        // PT: Nova regra só para esta ordenação: extrator Item::nome.
+        // EN: New rule only for this sort: extractor Item::nome.
         itens.sort(Comparator.comparing(Item::nome));
         System.out.println("por nome (Comparator): " + itens);
 

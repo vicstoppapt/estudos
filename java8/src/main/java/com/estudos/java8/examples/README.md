@@ -1,5 +1,7 @@
 # Exemplos Java 8
 
+**English:** [README-en.md](README-en.md)
+
 Lambdas, `java.util.function`, method references, default methods em interface, `Stream`, `Optional`, `java.time`.
 
 **Um `.md` por classe** (teoria e nuances); comentários de fluxo nos `.java`.

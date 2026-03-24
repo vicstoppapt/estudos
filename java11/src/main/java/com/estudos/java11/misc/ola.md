@@ -1,5 +1,7 @@
 # `Ola` (single-file)
 
+**English:** [ola-en.md](ola-en.md)
+
 Fonte: `Ola.java` nesta pasta.
 
 ## Objetivo

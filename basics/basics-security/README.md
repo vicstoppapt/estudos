@@ -1,5 +1,9 @@
 # `basics-security` — autenticação, criptografia, riscos
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../../DOCUMENTATION.md) · [GLOSSARY.md](../../GLOSSARY.md).
+
 Submódulo do agregador `basics`: **segurança para arquitetos** (não substitui formação OWASP/CISM nem auditorias). Liga com **`basics-networking`** (TLS, HTTPS).
 
 ## Documentos

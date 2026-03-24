@@ -1,5 +1,7 @@
 # Exemplos Java 11
 
+**English:** [README-en.md](README-en.md)
+
 `var`, `HttpClient`, utilitários de `String`/`Files`, `Optional` aprimorado.
 
 **Um `.md` por classe**; fluxo nos `.java`.

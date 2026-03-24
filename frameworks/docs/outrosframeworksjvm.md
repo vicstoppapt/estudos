@@ -1,5 +1,7 @@
 # Outros frameworks e runtimes na JVM (além de Spring Boot)
 
+**English:** [outrosframeworksjvm-en.md](outrosframeworksjvm-en.md)
+
 **Agregador `frameworks`**. Spring como referência: [springbootniveis.md](springbootniveis.md). No mesmo repositório há exemplos paralelos: **`frameworks-micronaut`** (Netty, Serde, validação) e **`frameworks-quarkus`** (REST/JAX-RS, CDI) — ver [`README.md`](../README.md).
 
 Esta lista é **orientativa** — produtos evoluem; compara **arranque**, **memória**, **ecossistema**, **cloud** e **equipa**.

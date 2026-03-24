@@ -1,5 +1,7 @@
 # `RecordPatternsSwitch`
 
+**English:** [recordpatternsswitch-en.md](recordpatternsswitch-en.md)
+
 Exemplo: `RecordPatternsSwitch.java`.
 
 ## Objetivo

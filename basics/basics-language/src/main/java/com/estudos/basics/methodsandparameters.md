@@ -1,5 +1,7 @@
 # `MethodsAndParameters`
 
+**English:** [methodsandparameters-en.md](methodsandparameters-en.md)
+
 Exemplo: `MethodsAndParameters.java`.
 
 ## Assinatura

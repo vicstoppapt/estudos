@@ -1,5 +1,7 @@
 # Segredos, OWASP e supply chain
 
+**English:** [segredosowasp-en.md](segredosowasp-en.md)
+
 **`basics-security`**. Auth: [autenticacaoautorizacao.md](autenticacaoautorizacao.md).
 
 ---

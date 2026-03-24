@@ -1,5 +1,7 @@
 # Hash, criptografia e TLS (conceitos)
 
+**English:** [criptografiaehash-en.md](criptografiaehash-en.md)
+
 Parte de **`basics-security`**. Exemplo de hash: [`CryptoLiteracy.java`](CryptoLiteracy.java).
 
 ---

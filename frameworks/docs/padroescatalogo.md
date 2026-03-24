@@ -1,5 +1,7 @@
 # Catálogo de padrões implementados ou referenciados (`frameworks`)
 
+**English:** [padroescatalogo-en.md](padroescatalogo-en.md)
+
 Mapa rápido do que o código e a documentação cobrem. Nem tudo tem classe dedicada — alguns são **próximos passos** naturais.
 
 ---

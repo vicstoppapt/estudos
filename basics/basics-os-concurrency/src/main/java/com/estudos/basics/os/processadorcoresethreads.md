@@ -1,6 +1,35 @@
 # Processador, núcleos (cores) e threads — guia detalhado
 
+**English:** [processadorcoresethreads-en.md](processadorcoresethreads-en.md)
+
+**Idioma:** [English version](processadorcoresethreads-en.md) · **Glossário PT ↔ EN:** [glossary-os-concurrency.md](glossary-os-concurrency.md)
+
 Leitura **antes** de mergulhar em JVM e código de concorrência: vocabulário exacto, o que cada camada “chama” ao resto, como **contar** recursos e como **dimensionar** uso de threads. Complementa o resumo em [processosthreadsecpu.md](processosthreadsecpu.md) e [jvmeagendamento.md](jvmeagendamento.md). Exemplos executáveis: [`ProcessorThreadExamples.java`](ProcessorThreadExamples.java), [`OsRuntimeSnapshot.java`](OsRuntimeSnapshot.java).
+
+---
+
+## Como executar
+
+**Pré-requisito:** JDK 17+ (mesmo `release` que o POM pai em `basics/`).
+
+1. **Desde a pasta do agregador `basics`** (caminho típico: `…/estudos/basics`):
+
+```bash
+mvn -q -pl basics-os-concurrency compile
+mvn -q exec:java -pl basics-os-concurrency "-Dexec.mainClass=com.estudos.basics.os.ProcessorThreadExamples"
+mvn -q exec:java -pl basics-os-concurrency "-Dexec.mainClass=com.estudos.basics.os.OsRuntimeSnapshot"
+```
+
+2. **Só dentro de `basics-os-concurrency`** (sem `-pl`):
+
+```bash
+cd basics-os-concurrency
+mvn -q compile
+mvn -q exec:java "-Dexec.mainClass=com.estudos.basics.os.ProcessorThreadExamples"
+mvn -q exec:java "-Dexec.mainClass=com.estudos.basics.os.OsRuntimeSnapshot"
+```
+
+**PowerShell (Windows):** mantém aspas em torno de `-Dexec.mainClass=...` como acima. **IDE:** executa o `main` de `ProcessorThreadExamples` ou `OsRuntimeSnapshot` com o módulo `basics-os-concurrency` no *classpath*.
 
 ---
 
@@ -114,11 +143,12 @@ Cruza com o que a JVM imprime em `ProcessorThreadExamples` / `OsRuntimeSnapshot`
 
 | Ordem | Recurso |
 |-------|---------|
-| 1 | [processosthreadsecpu.md](processosthreadsecpu.md) — resumo arquiteto |
-| 2 | [jvmeagendamento.md](jvmeagendamento.md) — JVM e virtual threads |
-| 3 | `basics-memory` — stack por thread, heap partilhado |
-| 4 | `core` — `MultithreadingIntro`, `JvmMemoryModelIntro` |
-| 5 | `java21` — virtual threads em código |
+| 1 | [processosthreadsecpu.md](processosthreadsecpu.md) — resumo arquiteto · EN: [processosthreadsecpu-en.md](processosthreadsecpu-en.md) |
+| 2 | [jvmeagendamento.md](jvmeagendamento.md) — JVM e virtual threads · EN: [jvmeagendamento-en.md](jvmeagendamento-en.md) |
+| 3 | [Glossário PT/EN](glossary-os-concurrency.md) |
+| 4 | `basics-memory` — stack por thread, heap partilhado |
+| 5 | `core` — `MultithreadingIntro`, `JvmMemoryModelIntro` |
+| 6 | `java21` — virtual threads em código |
 
 ---
 

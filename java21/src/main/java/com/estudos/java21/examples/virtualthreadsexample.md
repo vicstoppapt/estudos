@@ -1,5 +1,7 @@
 # `VirtualThreadsExample`
 
+**English:** [virtualthreadsexample-en.md](virtualthreadsexample-en.md)
+
 Exemplo: `VirtualThreadsExample.java`.
 
 ## Objetivo

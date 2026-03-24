@@ -1,5 +1,7 @@
 # Pacote `generics_collections`
 
+**English:** [README-en.md](README-en.md)
+
 Genéricos (`List<?>`, invariância) e visão geral de **List / Set / Map / Queue** (Hash, LinkedHash, Tree).
 
 **Documentação por exemplo** (detalhe e nuances):

@@ -1,5 +1,7 @@
 # `PatternMatchingInstanceof`
 
+**English:** [patternmatchinginstanceof-en.md](patternmatchinginstanceof-en.md)
+
 Exemplo: `PatternMatchingInstanceof.java`.
 
 ## Objetivo

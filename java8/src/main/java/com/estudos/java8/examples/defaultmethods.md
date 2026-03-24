@@ -1,5 +1,7 @@
 # `DefaultMethods`
 
+**English:** [defaultmethods-en.md](defaultmethods-en.md)
+
 Exemplo: `DefaultMethods.java`.
 
 ## Objetivo

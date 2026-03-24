@@ -1,5 +1,9 @@
 # `basics-storage` — dados, transações, ficheiros
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../../DOCUMENTATION.md) · [GLOSSARY.md](../../GLOSSARY.md).
+
 Submódulo do agregador `basics`: **armazenamento** em visão de arquiteto (modelos, consistência, JDBC em conceito, ficheiros vs objeto).
 
 ## Documentos

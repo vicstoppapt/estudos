@@ -1,6 +1,9 @@
 package com.estudos.java21.examples;
 
-/** Record pattern no switch. Teoria: README.md. */
+/**
+ * PT: Record pattern no switch. Teoria: README.md.
+ * EN: Record pattern in switch. Theory: README.md.
+ */
 public final class RecordPatternsSwitch {
 
     private RecordPatternsSwitch() {
@@ -11,7 +14,9 @@ public final class RecordPatternsSwitch {
 
     static int soma(Object o) {
         return switch (o) {
-            case Ponto(int x, int y) -> x + y; // decomposição do record
+            // PT: decomposição do record
+            // EN: record decomposition
+            case Ponto(int x, int y) -> x + y;
             default -> 0;
         };
     }

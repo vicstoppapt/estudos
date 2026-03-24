@@ -1,5 +1,7 @@
 # `FunctionalInterfaces`
 
+**English:** [functionalinterfaces-en.md](functionalinterfaces-en.md)
+
 Exemplo: `FunctionalInterfaces.java`.
 
 ## Objetivo

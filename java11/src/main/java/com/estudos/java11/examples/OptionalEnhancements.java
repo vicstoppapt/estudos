@@ -2,7 +2,10 @@ package com.estudos.java11.examples;
 
 import java.util.Optional;
 
-/** orElseThrow sem args. Teoria: README.md. */
+/**
+ * PT: orElseThrow sem args. Teoria: README.md.
+ * EN: orElseThrow with no args. Theory: README.md.
+ */
 public final class OptionalEnhancements {
 
     private OptionalEnhancements() {
@@ -15,7 +18,9 @@ public final class OptionalEnhancements {
     public static void main(String[] args) {
         Optional<String> vazio = Optional.empty();
         try {
-            vazio.orElseThrow(); // NoSuchElementException
+            // PT: NoSuchElementException
+            // EN: NoSuchElementException
+            vazio.orElseThrow();
         } catch (Exception e) {
             System.out.println(e.getClass().getSimpleName());
         }

@@ -1,5 +1,7 @@
 # `DeclarativeVsImperative`
 
+**English:** [declarativevsimperative-en.md](declarativevsimperative-en.md)
+
 Exemplo em: `DeclarativeVsImperative.java`.
 
 ## Objetivo

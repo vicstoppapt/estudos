@@ -1,5 +1,7 @@
 # SQL injection, DDoS e defesas (com exemplos)
 
+**English:** [injecaosqleddos-en.md](injecaosqleddos-en.md)
+
 **`basics-security`**. JDBC e dados: `basics-storage` → [jdbcfilesobjectstorage.md](../../../../../../../../basics-storage/src/main/java/com/estudos/basics/storage/jdbcfilesobjectstorage.md). Exemplo Java ilustrativo: [`SqlInjectionConcept.java`](SqlInjectionConcept.java).
 
 ---

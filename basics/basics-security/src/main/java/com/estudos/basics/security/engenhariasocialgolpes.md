@@ -1,5 +1,7 @@
 # Engenharia social, golpes e prevenção
 
+**English:** [engenhariasocialgolpes-en.md](engenhariasocialgolpes-en.md)
+
 **`basics-security`**. Defesa em camadas e processos: [defesasprevencao.md](defesasprevencao.md).
 
 ---

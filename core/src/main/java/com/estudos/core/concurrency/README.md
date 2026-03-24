@@ -1,5 +1,7 @@
 # Pacote `concurrency`
 
+**English:** [README-en.md](README-en.md)
+
 Threads, `synchronized`, `AtomicInteger`, `join`.
 
 **Documentação por exemplo:**

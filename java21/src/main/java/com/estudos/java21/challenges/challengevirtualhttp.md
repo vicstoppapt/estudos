@@ -1,5 +1,7 @@
 # `ChallengeVirtualHttp`
 
+**English:** [challengevirtualhttp-en.md](challengevirtualhttp-en.md)
+
 Solução: `ChallengeVirtualHttp.java`. Testes usam mock de `HttpClient` e executor síncrono.
 
 ## Objetivo

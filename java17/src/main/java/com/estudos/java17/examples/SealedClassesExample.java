@@ -1,6 +1,9 @@
 package com.estudos.java17.examples;
 
-/** sealed + records. Teoria: README.md. */
+/**
+ * PT: sealed + records. Teoria: README.md.
+ * EN: sealed types + records. Theory: README.md.
+ */
 public final class SealedClassesExample {
 
     private SealedClassesExample() {
@@ -22,7 +25,8 @@ public final class SealedClassesExample {
         if (e instanceof Add add) {
             return eval(add.a()) + eval(add.b());
         }
-        // Hierarquia fechada — não deveria chegar aqui se todos os permits cobertos
+        // PT: Hierarquia fechada — não deveria chegar aqui se todos os permits cobertos
+        // EN: Closed hierarchy — should not reach here if all permits are covered
         throw new IllegalStateException();
     }
 

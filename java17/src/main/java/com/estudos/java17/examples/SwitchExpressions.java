@@ -1,6 +1,9 @@
 package com.estudos.java17.examples;
 
-/** switch expressão + yield. Teoria: README.md. */
+/**
+ * PT: switch expressão + yield. Teoria: README.md.
+ * EN: switch expression + yield. Theory: README.md.
+ */
 public final class SwitchExpressions {
 
     private SwitchExpressions() {
@@ -8,12 +11,13 @@ public final class SwitchExpressions {
 
     static String dia(int d) {
         return switch (d) {
-            case 1, 7 -> "fim de semana";
+            case 1, 7 -> "PT: fim de semana | EN: weekend";
             case 2, 3, 4, 5, 6 -> {
-                // Bloco precisa de yield para produzir valor da expressão
-                yield "dia util";
+                // PT: Bloco precisa de yield para produzir valor da expressão
+                // EN: A block must use yield to produce the expression value
+                yield "PT: dia util | EN: weekday";
             }
-            default -> "invalido";
+            default -> "PT: invalido | EN: invalid";
         };
     }
 

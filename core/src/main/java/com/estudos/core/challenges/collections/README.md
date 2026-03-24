@@ -1,5 +1,7 @@
 # `challenges.collections`
 
+**English:** [README-en.md](README-en.md)
+
 **Documentação:**
 
 | Classe | Documento |

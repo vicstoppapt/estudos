@@ -1,5 +1,7 @@
 # Cache da CPU, cache do navegador, RAM e JVM
 
+**English:** [cpucachejvmenavegador-en.md](cpucachejvmenavegador-en.md)
+
 Texto transversal (sem `.java` dedicado). Cruza com [memoryphysicaldeepdive.md](memoryphysicaldeepdive.md) (hierarquia física) e [memoryandreferences.md](memoryandreferences.md) (modelo Java).
 
 ---

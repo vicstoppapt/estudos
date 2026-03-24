@@ -1,5 +1,7 @@
 # `ChallengeAnagram`
 
+**English:** [challengeanagram-en.md](challengeanagram-en.md)
+
 Solução em: `ChallengeAnagram.java`. Testes: `ChallengeAnagramTest`.
 
 ## Objetivo

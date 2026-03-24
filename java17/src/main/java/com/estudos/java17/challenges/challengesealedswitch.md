@@ -1,5 +1,7 @@
 # `ChallengeSealedSwitch`
 
+**English:** [challengesealedswitch-en.md](challengesealedswitch-en.md)
+
 Solução: `ChallengeSealedSwitch.java`.
 
 ## Objetivo

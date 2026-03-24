@@ -1,5 +1,7 @@
 # Camadas de rede, TCP, UDP e DNS
 
+**English:** [camadasetcpudp-en.md](camadasetcpudp-en.md)
+
 Submódulo **`basics-networking`**. Exemplo local: [`NetworkingLiteracy.java`](NetworkingLiteracy.java).
 
 ---

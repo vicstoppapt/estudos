@@ -10,7 +10,8 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 /**
- * Mockito: substitui dependência por objeto configurável (útil quando a real faria I/O ou tempo).
+ * PT: Mockito: substitui dependência por objeto configurável (útil quando a real faria I/O ou tempo).
+ * EN: Mockito: replaces a dependency with a configurable object (useful when the real one would do I/O or time).
  */
 @ExtendWith(MockitoExtension.class)
 class RelogioMockitoDemoTest {

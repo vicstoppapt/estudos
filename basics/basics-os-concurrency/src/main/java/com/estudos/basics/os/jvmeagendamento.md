@@ -1,6 +1,16 @@
 # JVM, processo único e threads Java
 
+**English:** [jvmeagendamento-en.md](jvmeagendamento-en.md)
+
+**Idioma:** [English](jvmeagendamento-en.md) · **Glossário:** [glossary-os-concurrency.md](glossary-os-concurrency.md)
+
 Complemento de [processosthreadsecpu.md](processosthreadsecpu.md) e do guia [processadorcoresethreads.md](processadorcoresethreads.md). Foco: **o que acontece quando usas `new Thread(...).start()`** e como isto se relaciona com o `core`.
+
+---
+
+## Como executar
+
+Mesmos exemplos Maven que no [guia detalhado](processadorcoresethreads.md#como-executar): `ProcessorThreadExamples` e `OsRuntimeSnapshot` em `com.estudos.basics.os`.
 
 ---
 

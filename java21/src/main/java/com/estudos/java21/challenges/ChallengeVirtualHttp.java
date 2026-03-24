@@ -11,7 +11,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionException;
 import java.util.concurrent.Executor;
 
-/** GET paralelo injetável. README em challenges/. */
+/**
+ * PT: GET paralelo injetável. README em challenges/.
+ * EN: Parallel GET with injectable executor. README in challenges/.
+ */
 public final class ChallengeVirtualHttp {
 
     private ChallengeVirtualHttp() {
@@ -32,7 +35,9 @@ public final class ChallengeVirtualHttp {
         }
         List<Integer> out = new ArrayList<>();
         for (CompletableFuture<Integer> f : futures) {
-            out.add(f.join()); // propaga CompletionException se falhou async
+            // PT: propaga CompletionException se falhou async
+            // EN: propagates CompletionException if async failed
+            out.add(f.join());
         }
         return out;
     }

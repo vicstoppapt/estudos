@@ -1,5 +1,7 @@
 # Ponteiros e referências em detalhe (Java)
 
+**English:** [pointersreferencesdeepdive-en.md](pointersreferencesdeepdive-en.md)
+
 Texto do submódulo **`basics-memory`**. Código que acompanha: [`ReferencesAndPointers.java`](ReferencesAndPointers.java). Visão mais larga (stack, heap, entrevista): [memoryandreferences.md](memoryandreferences.md). C vs Java e hardware: [memoryphysicaldeepdive.md](memoryphysicaldeepdive.md).
 
 ---

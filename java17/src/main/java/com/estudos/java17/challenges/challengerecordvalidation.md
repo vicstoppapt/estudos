@@ -1,5 +1,7 @@
 # `ChallengeRecordValidation`
 
+**English:** [challengerecordvalidation-en.md](challengerecordvalidation-en.md)
+
 Solução: `ChallengeRecordValidation.java`. Testes validam invariantes.
 
 ## Objetivo

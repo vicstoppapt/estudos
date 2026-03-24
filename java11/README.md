@@ -1,5 +1,9 @@
 # Java 11
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../DOCUMENTATION.md) · [GLOSSARY.md](../GLOSSARY.md).
+
 Foco: **`var`**, **`HttpClient`**, utilitários de **`String`** e **`Files`**, **`Optional`**, **launch sem `javac`** para arquivo único.
 
 **Documentação:** [`examples/README.md`](src/main/java/com/estudos/java11/examples/README.md) e [`challenges/README.md`](src/main/java/com/estudos/java11/challenges/README.md) — índice + **um `.md` por classe**; [`misc/README.md`](src/main/java/com/estudos/java11/misc/README.md) para `Ola.java`.

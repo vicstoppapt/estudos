@@ -1,5 +1,7 @@
 # Modelos de dados e motores
 
+**English:** [modelosdedados-en.md](modelosdedados-en.md)
+
 Submódulo **`basics-storage`**. Transações e CAP: [acidcaptransacoes.md](acidcaptransacoes.md).
 
 ---

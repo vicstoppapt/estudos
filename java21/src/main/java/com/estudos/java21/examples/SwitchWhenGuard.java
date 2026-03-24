@@ -1,6 +1,9 @@
 package com.estudos.java21.examples;
 
-/** switch + when. Teoria: README.md. */
+/**
+ * PT: switch + when. Teoria: README.md.
+ * EN: switch + when guards. Theory: README.md.
+ */
 public final class SwitchWhenGuard {
 
     private SwitchWhenGuard() {
@@ -11,10 +14,10 @@ public final class SwitchWhenGuard {
 
     static String classificar(Object o) {
         return switch (o) {
-            case Pedido p when p.qtd() <= 0 -> "invalido";
-            case Pedido p when p.preco() * p.qtd() > 1000 -> "grande";
-            case Pedido p -> "normal";
-            default -> "desconhecido";
+            case Pedido p when p.qtd() <= 0 -> "PT: invalido | EN: invalid";
+            case Pedido p when p.preco() * p.qtd() > 1000 -> "PT: grande | EN: large";
+            case Pedido p -> "PT: normal | EN: normal";
+            default -> "PT: desconhecido | EN: unknown";
         };
     }
 

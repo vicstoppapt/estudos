@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/** Leitura UTF-8. README em challenges/. */
+/**
+ * PT: Leitura UTF-8. README em challenges/.
+ * EN: UTF-8 read. README in challenges/.
+ */
 public final class ChallengeReadResource {
 
     private ChallengeReadResource() {
@@ -15,7 +18,8 @@ public final class ChallengeReadResource {
     }
 
     public static void main(String[] args) throws IOException {
-        // CWD deve ser a raiz do módulo java11 onde está sample.txt
+        // PT: CWD deve ser a raiz do módulo java11 onde está sample.txt
+        // EN: CWD should be the java11 module root where sample.txt lives
         Path p = Path.of("sample.txt");
         System.out.println(lerUtf8(p));
     }

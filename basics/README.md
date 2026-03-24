@@ -1,8 +1,10 @@
 # Java basics (`java-basics-parent`)
 
+**English:** [README-en.md](README-en.md)
+
 Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compiler.release` no POM pai) — linguagem, memória, sistema, rede, **segurança** e **armazenamento** (visão de arquiteto).
 
-**Plano global** (com `core`, `java8`…`java21`): [`estudos/README.md`](../README.md) → secção **Plano de estudos**.
+**Plano global** (com `core`, `java8`…`java21`): [`estudos/README.md`](../README.md) → secção **Plano de estudos**. **Comandos de todos os módulos `estudos`:** [`DOCUMENTATION.md`](../DOCUMENTATION.md) · **Glossário PT↔EN:** [`GLOSSARY.md`](../GLOSSARY.md).
 
 | Submódulo | Artefacto | Conteúdo |
 |-----------|-----------|----------|
@@ -19,7 +21,7 @@ Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compi
 
 1. **Linguagem** — tabela abaixo (ou só o que faltar).
 2. **Memória** — [`basics-memory/README.md`](basics-memory/README.md) (em paralelo com `VariablesAndTypes` se quiseres).
-3. **SO e CPU** — [`basics-os-concurrency/README.md`](basics-os-concurrency/README.md); leitura longa primeiro: [`processadorcoresethreads.md`](basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads.md).
+3. **SO e CPU** — [`basics-os-concurrency/README.md`](basics-os-concurrency/README.md); guia PT: [`processadorcoresethreads.md`](basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads.md) · EN: [`processadorcoresethreads-en.md`](basics-os-concurrency/src/main/java/com/estudos/basics/os/processadorcoresethreads-en.md) · glossário: [`glossary-os-concurrency.md`](basics-os-concurrency/src/main/java/com/estudos/basics/os/glossary-os-concurrency.md).
 4. **Rede** — [`basics-networking/README.md`](basics-networking/README.md); depois HTTP em código no **`java11`**.
 5. **Segurança** — [`basics-security/README.md`](basics-security/README.md) (complementa HTTPS/TLS da rede).
 6. **Armazenamento** — [`basics-storage/README.md`](basics-storage/README.md).
@@ -44,6 +46,8 @@ Agregador Maven **anterior** ao `core`: submódulos com **JDK 17** (`maven.compi
 cd basics
 mvn -q compile
 ```
+
+Isto compila **todos** os submódulos (inclui `basics-os-concurrency`). Comandos extra e variantes (só um submódulo, PT/EN): [`basics-os-concurrency/README.md`](basics-os-concurrency/README.md).
 
 Exemplos:
 

@@ -1,5 +1,7 @@
 # `VarInference`
 
+**English:** [varinference-en.md](varinference-en.md)
+
 Exemplo: `VarInference.java`.
 
 ## Objetivo

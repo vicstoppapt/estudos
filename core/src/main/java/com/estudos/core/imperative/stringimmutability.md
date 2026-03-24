@@ -1,5 +1,7 @@
 # `StringImmutability`
 
+**English:** [stringimmutability-en.md](stringimmutability-en.md)
+
 Exemplo em: `StringImmutability.java`.
 
 ## Objetivo

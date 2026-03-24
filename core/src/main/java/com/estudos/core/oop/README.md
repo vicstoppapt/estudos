@@ -1,5 +1,7 @@
 # Pacote `oop`
 
+**English:** [README-en.md](README-en.md)
+
 Abstração (interface vs classe abstrata), métodos de `Object`, contrato com `HashMap`, `Comparable` vs `Comparator`.
 
 **Documentação por exemplo:**

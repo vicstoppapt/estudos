@@ -1,5 +1,7 @@
 # ACID, transações e CAP
 
+**English:** [acidcaptransacoes-en.md](acidcaptransacoes-en.md)
+
 **`basics-storage`**. Modelos: [modelosdedados.md](modelosdedados.md).
 
 ---

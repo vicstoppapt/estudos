@@ -1,5 +1,7 @@
 # `AbstractVsInterface`
 
+**English:** [abstractvsinterface-en.md](abstractvsinterface-en.md)
+
 Exemplo em: `AbstractVsInterface.java`.
 
 ## Objetivo

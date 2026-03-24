@@ -1,5 +1,7 @@
 # Desafios (`challenges`)
 
+**English:** [README-en.md](README-en.md)
+
 Soluções de referência; **`mvn test`** valida. Conceito nos `.md` por classe; lógica nos `.java`.
 
 | Subpacote | README do subpacote | Desafio |

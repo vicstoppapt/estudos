@@ -1,20 +1,25 @@
 package com.estudos.java8.examples;
 
-/** default/static em interface. Teoria: README.md. */
+/**
+ * PT: default/static em interface. Teoria: README.md.
+ * EN: default/static in interfaces. Theory: README.md.
+ */
 public final class DefaultMethods {
 
     private DefaultMethods() {
     }
 
     interface Logger {
-        // Implementação padrão — quem implementa a interface herda sem precisar reescrever
+        // PT: Implementação padrão — quem implementa a interface herda sem precisar reescrever
+        // EN: Default implementation — implementors inherit without overriding
         default void log(String msg) {
             System.out.println("[log] " + msg);
         }
 
-        // Não passa por instância; chamada Logger.header()
+        // PT: Não passa por instância; chamada Logger.header()
+        // EN: Not on an instance; call Logger.header()
         static void header() {
-            System.out.println("=== inicio ===");
+            System.out.println("PT: === inicio === | EN: === start ===");
         }
     }
 
@@ -27,7 +32,9 @@ public final class DefaultMethods {
 
     public static void main(String[] args) {
         Logger.header();
-        new App().log("ola"); // vem do default de Logger
+        // PT: vem do default de Logger
+        // EN: from Logger default
+        new App().log("PT: ola | EN: hi");
 
         // meuPlayground();
     }

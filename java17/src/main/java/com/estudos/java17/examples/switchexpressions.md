@@ -1,5 +1,7 @@
 # `SwitchExpressions`
 
+**English:** [switchexpressions-en.md](switchexpressions-en.md)
+
 Exemplo: `SwitchExpressions.java`.
 
 ## Objetivo

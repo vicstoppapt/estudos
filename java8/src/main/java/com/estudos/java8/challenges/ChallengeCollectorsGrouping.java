@@ -5,14 +5,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/** groupingBy por tamanho. README em challenges/. */
+/**
+ * PT: groupingBy por tamanho. README em challenges/.
+ * EN: groupingBy by string length. README in challenges/.
+ */
 public final class ChallengeCollectorsGrouping {
 
     private ChallengeCollectorsGrouping() {
     }
 
     static Map<Integer, List<String>> agruparPorTamanho(List<String> palavras) {
-        // Cada chave = length; valor = lista de strings com esse length
+        // PT: Cada chave = length; valor = lista de strings com esse length
+        // EN: Each key = length; value = list of strings with that length
         return palavras.stream().collect(Collectors.groupingBy(String::length));
     }
 

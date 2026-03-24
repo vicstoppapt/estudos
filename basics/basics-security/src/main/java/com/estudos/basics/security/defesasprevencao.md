@@ -1,5 +1,7 @@
 # Formas de defesa e prevenção (visão de arquiteto)
 
+**English:** [defesasprevencao-en.md](defesasprevencao-en.md)
+
 **`basics-security`**. Humano: [engenhariasocialgolpes.md](engenhariasocialgolpes.md). Aplicação/infra: [injecaosqleddos.md](injecaosqleddos.md).
 
 ---

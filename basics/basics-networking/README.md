@@ -1,5 +1,9 @@
 # `basics-networking` — protocolos e camadas
 
+**English:** [README-en.md](README-en.md)
+
+**Repo `estudos`:** [DOCUMENTATION.md](../../DOCUMENTATION.md) · [GLOSSARY.md](../../GLOSSARY.md).
+
 Submódulo do agregador `basics`: **mapa mental** para arquitetos (TCP/UDP, HTTP, gRPC, outros padrões). Não substitui RFCs nem o módulo **`java11`** (`HttpClient` em código).
 
 ## Documentos

@@ -1,5 +1,7 @@
 # `HttpClientExample`
 
+**English:** [httpclientexample-en.md](httpclientexample-en.md)
+
 Exemplo: `HttpClientExample.java`.
 
 ## Objetivo

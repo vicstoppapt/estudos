@@ -1,5 +1,7 @@
 # `TextBlocksExample`
 
+**English:** [textblocksexample-en.md](textblocksexample-en.md)
+
 Exemplo: `TextBlocksExample.java`.
 
 ## Objetivo

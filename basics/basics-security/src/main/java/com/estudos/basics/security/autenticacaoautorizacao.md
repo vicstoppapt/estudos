@@ -1,5 +1,7 @@
 # Autenticação vs autorização
 
+**English:** [autenticacaoautorizacao-en.md](autenticacaoautorizacao-en.md)
+
 Submódulo **`basics-security`**. Rede e TLS: `basics-networking` → [outrosprotocolos.md](../../../../../../../../basics-networking/src/main/java/com/estudos/basics/network/outrosprotocolos.md).
 
 ---

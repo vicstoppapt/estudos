@@ -1,5 +1,7 @@
 # `SequencedCollectionsExample`
 
+**English:** [sequencedcollectionsexample-en.md](sequencedcollectionsexample-en.md)
+
 Exemplo: `SequencedCollectionsExample.java`.
 
 ## Objetivo

@@ -1,5 +1,7 @@
 # `VariablesAndTypes`
 
+**English:** [variablesandtypes-en.md](variablesandtypes-en.md)
+
 Exemplo: `VariablesAndTypes.java`.
 
 **Memória física, stack/heap, pass-by-value vs “referência”, comparação com outras linguagens e ROM/RAM:** ver [memoryandreferences.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/memoryandreferences.md) (`basics-memory`). **Ponteiros/referências em detalhe:** [pointersreferencesdeepdive.md](../../../../../../../basics-memory/src/main/java/com/estudos/basics/memory/pointersreferencesdeepdive.md).

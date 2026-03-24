@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Soma dos pares: for vs stream. Teoria: README.md.
+ * PT: Soma dos pares: for vs stream. Teoria: README.md.
+ * EN: Sum of evens: for vs stream. Theory: README.md.
  */
 public final class DeclarativeVsImperative {
 
@@ -15,7 +16,9 @@ public final class DeclarativeVsImperative {
         int total = 0;
         for (Integer n : nums) {
             if (n != null && n % 2 == 0) {
-                total += n; // acumula só pares não-nulos
+                // PT: Acumula só pares não-nulos.
+                // EN: Accumulates only non-null evens.
+                total += n;
             }
         }
         return total;
@@ -24,16 +27,24 @@ public final class DeclarativeVsImperative {
     static int somaParesDeclarativo(List<Integer> nums) {
         return nums.stream()
                 .filter(n -> n != null && n % 2 == 0)
-                .mapToInt(Integer::intValue) // IntStream a partir dos Integer
-                .sum(); // operação terminal
+                // PT: IntStream a partir dos Integer.
+                // EN: IntStream from the Integer values.
+                .mapToInt(Integer::intValue)
+                // PT: Operação terminal.
+                // EN: Terminal operation.
+                .sum();
     }
 
-    /** Playground; descomente no main. */
+    /**
+     * PT: Playground; descomente no main.
+     * EN: Playground; uncomment in main.
+     */
     static void meuPlayground() {
     }
 
     public static void main(String[] args) {
-        // contém null de propósito — ambos os métodos devem ignorar
+        // PT: Contém null de propósito — ambos os métodos devem ignorar.
+        // EN: Contains null on purpose — both methods must ignore it.
         List<Integer> xs = Arrays.asList(1, 2, 3, 4, null, 6);
         System.out.println("imperativo: " + somaParesImperativo(xs));
         System.out.println("declarativo: " + somaParesDeclarativo(xs));

@@ -1,5 +1,7 @@
 # O que é um framework?
 
+**English:** [oqueeumframework-en.md](oqueeumframework-en.md)
+
 **Agregador `frameworks`** (vários submódulos Maven). Níveis de profundidade: [niveisdefinicao.md](niveisdefinicao.md).
 
 ---

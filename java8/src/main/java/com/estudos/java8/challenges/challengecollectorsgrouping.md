@@ -1,5 +1,7 @@
 # `ChallengeCollectorsGrouping`
 
+**English:** [challengecollectorsgrouping-en.md](challengecollectorsgrouping-en.md)
+
 Solução: `ChallengeCollectorsGrouping.java`.
 
 ## Objetivo

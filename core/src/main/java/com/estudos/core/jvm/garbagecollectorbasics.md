@@ -1,5 +1,7 @@
 # `GarbageCollectorBasics`
 
+**English:** [garbagecollectorbasics-en.md](garbagecollectorbasics-en.md)
+
 Exemplo em: `GarbageCollectorBasics.java`.
 
 ## Objetivo

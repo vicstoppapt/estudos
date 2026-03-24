@@ -1,5 +1,7 @@
 # Níveis básico, intermédio e avançado (este módulo)
 
+**English:** [niveisdefinicao-en.md](niveisdefinicao-en.md)
+
 Critérios usados **neste repositório** para o tópico **frameworks e Spring Boot**. Serve para alinhar expectativas: o mesmo termo muda consoante a equipa; aqui fica **explícito**.
 
 ---

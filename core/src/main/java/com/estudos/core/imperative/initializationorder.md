@@ -1,5 +1,7 @@
 # `InitializationOrder`
 
+**English:** [initializationorder-en.md](initializationorder-en.md)
+
 Exemplo em: `InitializationOrder.java` (inclui classe interna estática `Sub`).
 
 ## Objetivo

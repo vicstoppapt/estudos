@@ -3,7 +3,8 @@ package com.estudos.core.challenges.concurrency;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Contador compartilhado com incremento atômico. Contexto: README em challenges/.
+ * PT: Contador compartilhado com incremento atômico. Contexto: README em challenges/.
+ * EN: Shared counter with atomic increment. Context: README under challenges/.
  */
 public final class ChallengeThreadSafeCounter {
 
@@ -14,7 +15,9 @@ public final class ChallengeThreadSafeCounter {
         private final AtomicInteger value = new AtomicInteger();
 
         void increment() {
-            value.incrementAndGet(); // uma operação atômica — sem lost update entre threads
+            // PT: Uma operação atômica — sem lost update entre threads.
+            // EN: One atomic operation — no lost updates between threads.
+            value.incrementAndGet();
         }
 
         int get() {
@@ -35,7 +38,8 @@ public final class ChallengeThreadSafeCounter {
         t2.start();
         t1.join();
         t2.join();
-        // esperado: 100_000
+        // PT: Esperado: 100_000.
+        // EN: Expected: 100_000.
         System.out.println("esperado 100000, obtido: " + c.get());
     }
 }

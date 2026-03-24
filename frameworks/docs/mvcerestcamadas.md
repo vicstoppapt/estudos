@@ -1,5 +1,7 @@
 # MVC em REST e arquitetura em camadas (modelo deste módulo)
 
+**English:** [mvcerestcamadas-en.md](mvcerestcamadas-en.md)
+
 Este projeto usa **Spring MVC** com **API REST** (JSON). O “**V**” (*View*) não são ficheiros JSP/Thymeleaf, mas a **representação** devolvida ao cliente (JSON serializado a partir de **DTOs**).
 
 ---

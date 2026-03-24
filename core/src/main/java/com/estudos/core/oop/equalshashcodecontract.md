@@ -1,5 +1,7 @@
 # `EqualsHashCodeContract`
 
+**English:** [equalshashcodecontract-en.md](equalshashcodecontract-en.md)
+
 Exemplo em: `EqualsHashCodeContract.java` (classe interna `Pessoa`).
 
 ## Objetivo

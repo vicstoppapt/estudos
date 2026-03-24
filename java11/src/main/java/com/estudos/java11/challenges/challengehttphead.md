@@ -1,5 +1,7 @@
 # `ChallengeHttpHead`
 
+**English:** [challengehttphead-en.md](challengehttphead-en.md)
+
 Solução: `ChallengeHttpHead.java`. Testes usam mock de `HttpClient`.
 
 ## Objetivo

@@ -1,5 +1,7 @@
 # `StreamsIntro`
 
+**English:** [streamsintro-en.md](streamsintro-en.md)
+
 Exemplo: `StreamsIntro.java`.
 
 ## Objetivo

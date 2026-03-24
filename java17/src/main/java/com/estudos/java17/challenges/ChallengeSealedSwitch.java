@@ -1,6 +1,9 @@
 package com.estudos.java17.challenges;
 
-/** Sealed + instanceof. README em challenges/. */
+/**
+ * PT: Sealed + instanceof. README em challenges/.
+ * EN: Sealed types + instanceof. README in challenges/.
+ */
 public final class ChallengeSealedSwitch {
 
     private ChallengeSealedSwitch() {
@@ -22,12 +25,15 @@ public final class ChallengeSealedSwitch {
         if (f instanceof Circulo) {
             return "vermelho";
         }
-        // permits fecha o conjunto — compile-time sabe que só existem estes dois
-        throw new IllegalStateException("tipo selado desconhecido");
+        // PT: permits fecha o conjunto — compile-time sabe que só existem estes dois
+        // EN: permits close the set — at compile time only these two exist
+        throw new IllegalStateException("PT: tipo selado desconhecido | EN: unknown sealed subtype");
     }
 
     public static void main(String[] args) {
-        System.out.println(cor(new Quadrado(1)));
-        System.out.println(cor(new Circulo(2)));
+        String c1 = cor(new Quadrado(1));
+        System.out.println("PT: " + c1 + " | EN: " + ("azul".equals(c1) ? "blue" : "red"));
+        String c2 = cor(new Circulo(2));
+        System.out.println("PT: " + c2 + " | EN: " + ("azul".equals(c2) ? "blue" : "red"));
     }
 }

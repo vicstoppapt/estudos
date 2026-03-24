@@ -1,5 +1,7 @@
 # Desafios Java 8
 
+**English:** [README-en.md](README-en.md)
+
 Soluções de referência; `mvn test` valida.
 
 | Classe | Documento |

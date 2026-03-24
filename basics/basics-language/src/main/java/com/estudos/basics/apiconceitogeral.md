@@ -1,5 +1,7 @@
 # API — conceito geral em TI (não é só web)
 
+**English:** [apiconceitogeral-en.md](apiconceitogeral-en.md)
+
 Texto transversal (sem `.java` dedicado). Serve para alinhar o vocabulário: quando alguém diz **“não existe API Java para X”** (ex.: forçar dados na L1 da CPU), **API** aqui significa **interface de programação exposta** — não necessariamente HTTP.
 
 ---

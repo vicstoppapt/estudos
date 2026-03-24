@@ -1,5 +1,7 @@
 # `CollectionsOverview`
 
+**English:** [collectionsoverview-en.md](collectionsoverview-en.md)
+
 Exemplo em: `CollectionsOverview.java`.
 
 ## Objetivo

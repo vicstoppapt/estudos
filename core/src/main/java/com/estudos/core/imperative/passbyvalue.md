@@ -1,5 +1,7 @@
 # `PassByValue`
 
+**English:** [passbyvalue-en.md](passbyvalue-en.md)
+
 Exemplo em: `PassByValue.java`.
 
 ## Objetivo

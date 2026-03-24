@@ -6,7 +6,8 @@ import java.net.URISyntaxException;
 import java.net.UnknownHostException;
 
 /**
- * URI, host local e portas — sem depender de serviço remoto acessível. Teoria nos {@code .md} do pacote.
+ * PT: URI, host local e portas — sem depender de serviço remoto acessível. Teoria nos {@code .md} do pacote.
+ * EN: URI, local host, and ports — without relying on a reachable remote service. Theory in the package {@code .md} files.
  */
 public final class NetworkingLiteracy {
 
@@ -23,7 +24,8 @@ public final class NetworkingLiteracy {
                 + " path=" + api.getPath() + " query=" + api.getQuery());
 
         InetAddress local = InetAddress.getLocalHost();
-        System.out.println("localhost: " + local.getHostName() + " / " + local.getHostAddress());
+        System.out.println("PT: host local: " + local.getHostName() + " / " + local.getHostAddress());
+        System.out.println("EN: localhost: " + local.getHostName() + " / " + local.getHostAddress());
 
         // meuPlayground();
     }

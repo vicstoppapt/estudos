@@ -1,5 +1,7 @@
 # JDBC, ficheiros e object storage
 
+**English:** [jdbcfilesobjectstorage-en.md](jdbcfilesobjectstorage-en.md)
+
 **`basics-storage`**. Exemplo local: [`StorageLiteracy.java`](StorageLiteracy.java).
 
 ---

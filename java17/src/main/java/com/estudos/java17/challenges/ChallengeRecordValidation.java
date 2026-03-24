@@ -1,6 +1,9 @@
 package com.estudos.java17.challenges;
 
-/** Record com validação. README em challenges/. */
+/**
+ * PT: Record com validação. README em challenges/.
+ * EN: Record with validation. README in challenges/.
+ */
 public final class ChallengeRecordValidation {
 
     private ChallengeRecordValidation() {
@@ -8,12 +11,13 @@ public final class ChallengeRecordValidation {
 
     public record Email(String valor) {
         public Email {
-            // Compact constructor: valida antes de expor instância
+            // PT: Compact constructor: valida antes de expor instância
+            // EN: Compact constructor: validates before exposing the instance
             if (valor == null || valor.isBlank()) {
-                throw new IllegalArgumentException("email vazio");
+                throw new IllegalArgumentException("PT: email vazio | EN: empty email");
             }
             if (!valor.contains("@")) {
-                throw new IllegalArgumentException("email precisa conter @");
+                throw new IllegalArgumentException("PT: email precisa conter @ | EN: email must contain @");
             }
         }
     }

@@ -1,5 +1,7 @@
 # Pacote `jvm`
 
+**English:** [README-en.md](README-en.md)
+
 Modelo simples de memória (stack/heap) e noções de GC.
 
 **Documentação por exemplo:**

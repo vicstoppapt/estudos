@@ -1,5 +1,7 @@
 # `ChallengeReadResource`
 
+**English:** [challengereadresource-en.md](challengereadresource-en.md)
+
 Solução: `ChallengeReadResource.java`. Testes usam `@TempDir`.
 
 ## Objetivo

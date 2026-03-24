@@ -1,6 +1,9 @@
 package com.estudos.java17.examples;
 
-/** Text blocks """. Teoria: README.md. */
+/**
+ * PT: Text blocks """. Teoria: README.md.
+ * EN: Text blocks """. Theory: README.md.
+ */
 public final class TextBlocksExample {
 
     private TextBlocksExample() {
@@ -11,7 +14,8 @@ public final class TextBlocksExample {
     }
 
     public static void main(String[] args) {
-        // Alinhamento à esquerda do conteúdo define indentação removida
+        // PT: Alinhamento à esquerda do conteúdo define indentação removida
+        // EN: Left alignment of the content defines stripped indentation
         String json = """
                 {
                   "nome": "java",

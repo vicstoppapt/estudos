@@ -1,5 +1,7 @@
 # `SealedClassesExample`
 
+**English:** [sealedclassesexample-en.md](sealedclassesexample-en.md)
+
 Exemplo: `SealedClassesExample.java`.
 
 ## Objetivo

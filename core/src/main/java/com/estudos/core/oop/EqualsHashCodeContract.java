@@ -5,7 +5,8 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * equals + hashCode alinhados para HashMap. Teoria: README.md.
+ * PT: equals + hashCode alinhados para HashMap. Teoria: README.md.
+ * EN: equals + hashCode aligned for HashMap. Theory: README.md.
  */
 public final class EqualsHashCodeContract {
 
@@ -35,12 +36,16 @@ public final class EqualsHashCodeContract {
 
         @Override
         public int hashCode() {
-            // Mesmos campos que equals — senão get( new Pessoa(...) ) falha
+            // PT: Mesmos campos que equals — senão get( new Pessoa(...) ) falha.
+            // EN: Same fields as equals — otherwise get( new Pessoa(...) ) fails.
             return Objects.hash(nome, id);
         }
     }
 
-    /** Playground; descomente no main. */
+    /**
+     * PT: Playground; descomente no main.
+     * EN: Playground; uncomment in main.
+     */
     static void meuPlayground() {
     }
 
@@ -48,9 +53,11 @@ public final class EqualsHashCodeContract {
         Map<Pessoa, String> map = new HashMap<>();
         Pessoa p = new Pessoa("Ana", 1);
         map.put(p, "dev");
-        // mesma referência p — mesmo bucket e equals bate
+        // PT: Mesma referência p — mesmo bucket e equals bate.
+        // EN: Same reference p — same bucket and equals matches.
         System.out.println("get mesma chave: " + map.get(p));
-        // outro objeto, mas equals+hashCode batem → mesmo bucket, equals encontra
+        // PT: Outro objeto, mas equals+hashCode batem → mesmo bucket, equals encontra.
+        // EN: Another object, but equals+hashCode match → same bucket, equals finds it.
         System.out.println("get chave equal: " + map.get(new Pessoa("Ana", 1)));
 
         // meuPlayground();

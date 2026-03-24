@@ -1,5 +1,7 @@
 # `RecordsExample`
 
+**English:** [recordsexample-en.md](recordsexample-en.md)
+
 Exemplo: `RecordsExample.java`.
 
 ## Objetivo

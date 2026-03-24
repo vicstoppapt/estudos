@@ -5,7 +5,8 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * HashMap precisa de hashCode coerente com equals. Contexto: README em challenges/.
+ * PT: HashMap precisa de hashCode coerente com equals. Contexto: README em challenges/.
+ * EN: HashMap requires hashCode consistent with equals. Context: README under challenges/.
  */
 public final class ChallengeEqualsHashCode {
 
@@ -33,7 +34,8 @@ public final class ChallengeEqualsHashCode {
 
         @Override
         public int hashCode() {
-            // Comente este método para ver map.get(busca) voltar null
+            // PT: Comente este método para ver map.get(busca) voltar null.
+            // EN: Comment out this method to see map.get(busca) return null.
             return Objects.hash(k);
         }
     }

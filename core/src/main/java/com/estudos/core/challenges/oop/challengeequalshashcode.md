@@ -1,5 +1,7 @@
 # `ChallengeEqualsHashCode`
 
+**English:** [challengeequalshashcode-en.md](challengeequalshashcode-en.md)
+
 Solução em: `ChallengeEqualsHashCode.java`. Testes cobrem `get` com chave equal.
 
 ## Objetivo

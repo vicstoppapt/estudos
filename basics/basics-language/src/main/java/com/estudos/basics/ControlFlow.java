@@ -1,7 +1,8 @@
 package com.estudos.basics;
 
 /**
- * if, laços, switch. Teoria: controlflow.md.
+ * PT: if, laços, switch. Teoria: controlflow.md.
+ * EN: if, loops, switch. Theory: controlflow.md.
  */
 public final class ControlFlow {
 
@@ -14,9 +15,11 @@ public final class ControlFlow {
     public static void main(String[] args) {
         int n = 7;
         if (n % 2 == 0) {
-            System.out.println("par");
+            System.out.println("PT: par");
+            System.out.println("EN: even");
         } else {
-            System.out.println("impar");
+            System.out.println("PT: impar");
+            System.out.println("EN: odd");
         }
 
         for (int i = 0; i < 3; i++) {
@@ -31,9 +34,18 @@ public final class ControlFlow {
 
         String cor = "verde";
         switch (cor) {
-            case "verde" -> System.out.println("siga");
-            case "amarelo" -> System.out.println("atencao");
-            default -> System.out.println("pare");
+            case "verde" -> {
+                System.out.println("PT: siga");
+                System.out.println("EN: go");
+            }
+            case "amarelo" -> {
+                System.out.println("PT: atencao");
+                System.out.println("EN: caution");
+            }
+            default -> {
+                System.out.println("PT: pare");
+                System.out.println("EN: stop");
+            }
         }
 
         // meuPlayground();

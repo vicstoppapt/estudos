@@ -1,5 +1,7 @@
 # Pacote `imperative`
 
+**English:** [README-en.md](README-en.md)
+
 Passagem por valor, `String` (`==` / `equals` / pool), ordem de inicialização de classe e instância.
 
 **Documentação por exemplo:**

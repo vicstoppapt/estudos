@@ -1,5 +1,7 @@
 # `ChallengeStreamWordCount`
 
+**English:** [challengestreamwordcount-en.md](challengestreamwordcount-en.md)
+
 Solução: `ChallengeStreamWordCount.java`. Testes em `src/test`.
 
 ## Objetivo
